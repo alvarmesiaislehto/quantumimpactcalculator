@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# QRI cache — auto-generated, do not commit
+qri_cache.json
+
+# Generated PDFs (regenerate from source)
+TECHNICAL_REPORT.pdf
+METHODOLOGY_REPORT.pdf
+
+# Claude Code
+.claude/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
