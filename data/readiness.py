@@ -48,6 +48,7 @@ READINESS_SCORES: dict[str, float] = {
     "PT": 0.55,  # IT (Instituto de Telecomunicações); EU quantum participation
     "CZ": 0.58,  # ELI Beamlines; Prague quantum group; EU quantum flagship
     "GR": 0.52,  # Foundation for Research & Technology Hellas; growing
+    "SI": 0.50,  # University of Ljubljana quantum group; EU quantum flagship participation
     "HU": 0.54,  # Budapest quantum research; ELI NP; EU participation
     "RO": 0.48,  # Limited dedicated investment; EU participation only
     "NZ": 0.60,  # University of Auckland; Victoria; aligned with AU programs

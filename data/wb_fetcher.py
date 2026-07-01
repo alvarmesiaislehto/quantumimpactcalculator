@@ -52,6 +52,7 @@ GDP_FALLBACKS_USD: dict[str, float] = {
     "TH":  5.125e11, "IE":  5.356e11, "CZ":  3.302e11, "NZ":  2.471e11,
     "RO":  3.524e11, "PT":  2.878e11, "HU":  2.124e11, "GR":  2.398e11,
     "AE":  5.046e11, "PH":  4.352e11, "EG":  3.960e11, "VN":  4.335e11,
+    "SI":  6.800e10,
 }
 
 COUNTRY_OVERRIDES = {
