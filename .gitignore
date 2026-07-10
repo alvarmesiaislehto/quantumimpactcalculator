@@ -6,9 +6,6 @@ __pycache__/
 venv/
 *.egg-info/
 
-# QRI cache — auto-generated, do not commit
-qri_cache.json
-
 # Generated PDFs (regenerate from source)
 TECHNICAL_REPORT.pdf
 METHODOLOGY_REPORT.pdf
