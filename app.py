@@ -15,7 +15,7 @@ from model import calculate_quantum_impact, calculate_timeline_series
 import qri as _qri
 
 # ISO-2 → ISO-3 mapping for the 4 supported countries
-_ISO2_TO_ISO3 = {"DE": "DEU", "US": "USA", "FI": "FIN", "IT": "ITA", "GR": "GRC", "PL": "POL", "SI": "SVN"}
+_ISO2_TO_ISO3 = {"DE": "DEU", "US": "USA", "FI": "FIN", "IT": "ITA", "GR": "GRC", "PL": "POL", "SI": "SVN", "ES": "ESP"}
 
 @st.cache_data(ttl=3600)
 def _get_qri_results():
@@ -34,6 +34,7 @@ COUNTRY_COLORS = {
     "Greece":        "#4CAF7D",
     "Poland":        "#E05B7D",
     "Slovenia":      "#A78BFA",
+    "Spain":         "#F87171",
 }
 
 def _hex_to_rgba(hex_color: str, alpha: float = 0.2) -> str:
@@ -432,6 +433,7 @@ COUNTRIES: dict[str, str] = {
     "Greece":         "GR",
     "Poland":         "PL",
     "Slovenia":       "SI",
+    "Spain":          "ES",
 }
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
@@ -1033,7 +1035,7 @@ else:
     )
 
 # ── Debug / validation expander ───────────────────────────────────────────────
-VALIDATION_COUNTRIES = ["DE", "US", "FI", "IT", "GR", "PL", "SI"]
+VALIDATION_COUNTRIES = ["DE", "US", "FI", "IT", "GR", "PL", "SI", "ES"]
 
 with st.expander("🔬 Model Validation (debug)"):
     st.markdown(
