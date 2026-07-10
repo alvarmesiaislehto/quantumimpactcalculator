@@ -53,6 +53,7 @@ GDP_FALLBACKS_USD: dict[str, float] = {
     "RO":  3.524e11, "PT":  2.878e11, "HU":  2.124e11, "GR":  2.398e11,
     "AE":  5.046e11, "PH":  4.352e11, "EG":  3.960e11, "VN":  4.335e11,
     "SI":  6.800e10,
+    "LU":  8.700e10,  # Luxembourg ~$87B (World Bank 2023)
 }
 
 COUNTRY_OVERRIDES = {

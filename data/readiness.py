@@ -46,6 +46,7 @@ READINESS_SCORES: dict[str, float] = {
     "AT": 0.70,  # Vienna; long history in quantum optics (Zeilinger); AIT programs
     "IE": 0.62,  # Tyndall National Institute; QuSys group; EU quantum flagship node
     "PT": 0.55,  # IT (Instituto de Telecomunicações); EU quantum participation
+    "LU": 0.53,  # LuxQuantum initiative; Uni Luxembourg; EU quantum flagship node
     "CZ": 0.58,  # ELI Beamlines; Prague quantum group; EU quantum flagship
     "GR": 0.52,  # Foundation for Research & Technology Hellas; growing
     "SI": 0.50,  # University of Ljubljana quantum group; EU quantum flagship participation
