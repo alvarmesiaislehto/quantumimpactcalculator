@@ -5,6 +5,7 @@ Based on McKinsey Quantum Technology Monitor 2026.
 """
 
 import io
+import os
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
@@ -444,7 +445,8 @@ COUNTRIES: dict[str, str] = {
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("iqm_logo.jpeg", use_container_width=True)
+    _LOGO = os.path.join(os.path.dirname(__file__), "iqm_logo.jpeg")
+    st.image(_LOGO, use_container_width=True)
     st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
 
     selected_country = st.selectbox(
