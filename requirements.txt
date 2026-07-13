@@ -3,3 +3,4 @@ plotly==6.7.0
 pandas==3.0.3
 requests==2.34.2
 openpyxl==3.1.5
+rich>=10.14.0,<15.0.0
